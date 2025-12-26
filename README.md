@@ -91,10 +91,10 @@ Training: The model is trained for 20 epochs using the Adam optimizer and Catego
 🚀 Setup & Installation
 1. Clone the Repository
 
-    git clone https://github.com/SaurabhMutekar/Garbage-Classification-Using-CNN-Model.git
+        git clone https://github.com/SaurabhMutekar/Garbage-Classification-Using-CNN-Model.git
 
 
-    cd Garbage-Classification-Using-CNN-Model
+        cd Garbage-Classification-Using-CNN-Model
 
 
 2. Install Dependencies
@@ -102,7 +102,7 @@ Training: The model is trained for 20 epochs using the Adam optimizer and Catego
     Create a virtual environment (optional) and install the required packages.
 
 
-    pip install flask tensorflow numpy matplotlib
+        pip install flask tensorflow numpy matplotlib
 
 
 3. Prepare the Model
@@ -129,10 +129,10 @@ Training: The model is trained for 20 epochs using the Adam optimizer and Catego
 4. Run the Application
 
 
-    python app.py
+        python app.py
 
     The server will start at http://127.0.0.1:5000/.
-
+    
 💻 Usage
 Open your web browser and navigate to the localhost URL.
 
