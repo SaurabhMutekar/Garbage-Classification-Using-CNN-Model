@@ -68,24 +68,24 @@ Garbage-Classification-Using-CNN-Model/
 The model is built using TensorFlow/Keras and trained in the garbage_classification.ipynb notebook.
 
 Workflow:
-Data Loading: Images are loaded from the dataset-resized folder.
+    Data Loading: Images are loaded from the dataset-resized folder.
 
-Preprocessing: Image rescaling (1./255) and augmentation (shear, zoom, horizontal flip) to prevent overfitting.
+    Preprocessing: Image rescaling (1./255) and augmentation (shear, zoom, horizontal flip) to prevent overfitting.
 
 CNN Architecture:
 
-3 Convolutional layers with ReLU activation.
+    3 Convolutional layers with ReLU activation.
 
-Max Pooling layers to reduce dimensionality.
+    Max Pooling layers to reduce dimensionality.
 
-Flatten layer.
+    Flatten layer.
 
-Dense hidden layer (128 neurons).
+    Dense hidden layer (128 neurons).
 
-Output layer (6 neurons, Softmax activation).
+    Output layer (6 neurons, Softmax activation).
 
 
-Shutterstock
+    Shutterstock
 Training: The model is trained for 20 epochs using the Adam optimizer and Categorical Crossentropy loss.
 
 🚀 Setup & Installation
