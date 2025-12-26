@@ -31,13 +31,15 @@ Dataset: TrashNet (Gary Thung)
 
 📂 Project Structure
 Ensure your project directory is organized as follows for the code to run correctly:
+<img width="462" height="490" alt="image" src="https://github.com/user-attachments/assets/5574cebb-3f98-4745-bf0a-5585dcab0e82" />
+
 
 Plaintext
 
 Garbage-Classification/
 │
 ├── model/
-│   └── garbage_classification_model.h5  # The saved model (renamed from notebook output)
+│   └── garbage_classification_model.h5  
 │
 ├── static/
 │   ├── script.js                        # The provided frontend logic
