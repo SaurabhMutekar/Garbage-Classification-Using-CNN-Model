@@ -3,6 +3,8 @@
 
 A Deep Learning-powered web application that classifies waste into six different categories to assist in recycling and waste management efforts. This project utilizes a Convolutional Neural Network (CNN) trained on the TrashNet dataset and serves predictions via a Flask web interface.
 
+
+
 📌 Overview
 Waste management is a critical global challenge. This application automates the process of identifying waste types using computer vision. Users can upload or drag-and-drop an image of a waste item, and the system predicts its material type.
 
@@ -33,6 +35,7 @@ Dataset: TrashNet (Gary Thung)
 
 📂 Project Structure
 
+<img width="535" height="620" alt="image" src="https://github.com/user-attachments/assets/6bcf8ef2-4038-4594-9fa0-24802d3b167c" />
 
 
 Plaintext
@@ -79,33 +82,47 @@ Training: The model is trained for 20 epochs using the Adam optimizer and Catego
 
 🚀 Setup & Installation
 1. Clone the Repository
-Bash
 
 git clone https://github.com/SaurabhMutekar/Garbage-Classification-Using-CNN-Model.git
+
+
 cd Garbage-Classification-Using-CNN-Model
+
+
 2. Install Dependencies
+
 Create a virtual environment (optional) and install the required packages.
 
-Bash
 
 pip install flask tensorflow numpy matplotlib
+
+
 3. Prepare the Model
+
+
 If you haven't trained the model yet:
+
 
 Open garbage_classification.ipynb in Google Colab or Jupyter.
 
+
 Download the dataset: Link.
+
 
 Run the cells to train the model.
 
+
 Download the generated garbage_classification_20.h5 file.
+
 
 Rename it to garbage_classification_model.h5 and place it in the model/ folder.
 
+
 4. Run the Application
-Bash
+
 
 python app.py
+
 The server will start at http://127.0.0.1:5000/.
 
 💻 Usage
