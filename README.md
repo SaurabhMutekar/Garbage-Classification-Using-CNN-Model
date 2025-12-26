@@ -42,9 +42,12 @@ Plaintext
 
 Garbage-Classification-Using-CNN-Model/
 │
+
 ├── model/
+
 │   └── garbage_classification_model.h5  
 │
+
 ├── static/
 │   ├── script.js                        # The provided frontend logic
 │   └── styles.css                       # (Optional) CSS for styling
