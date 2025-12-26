@@ -35,12 +35,8 @@ Dataset: TrashNet (Gary Thung)
 
 📂 Project Structure
 
-<img width="535" height="620" alt="image" src="https://github.com/user-attachments/assets/6bcf8ef2-4038-4594-9fa0-24802d3b167c" />
-
-
-Plaintext
-
 Garbage-Classification-Using-CNN-Model/
+
 │
 
 ├── model/
@@ -49,16 +45,25 @@ Garbage-Classification-Using-CNN-Model/
 │
 
 ├── static/
+
 │   ├── script.js                        # The provided frontend logic
+
 │   └── styles.css                       # (Optional) CSS for styling
+
 │
 ├── templates/
+
 │   └── index.html                       # HTML template for the UI
+
 │
 ├── app.py                               # Flask backend application
+
 ├── garbage_classification.ipynb         # Jupyter Notebook for training
+
 ├── requirements.txt                     # List of python dependencies
+
 └── README.md
+
 🧠 Model Architecture & Training
 The model is built using TensorFlow/Keras and trained in the garbage_classification.ipynb notebook.
 
@@ -86,73 +91,73 @@ Training: The model is trained for 20 epochs using the Adam optimizer and Catego
 🚀 Setup & Installation
 1. Clone the Repository
 
-git clone https://github.com/SaurabhMutekar/Garbage-Classification-Using-CNN-Model.git
+    git clone https://github.com/SaurabhMutekar/Garbage-Classification-Using-CNN-Model.git
 
 
-cd Garbage-Classification-Using-CNN-Model
+    cd Garbage-Classification-Using-CNN-Model
 
 
 2. Install Dependencies
 
-Create a virtual environment (optional) and install the required packages.
+    Create a virtual environment (optional) and install the required packages.
 
 
-pip install flask tensorflow numpy matplotlib
+    pip install flask tensorflow numpy matplotlib
 
 
 3. Prepare the Model
 
 
-If you haven't trained the model yet:
+    If you haven't trained the model yet:
 
 
-Open garbage_classification.ipynb in Google Colab or Jupyter.
+    Open garbage_classification.ipynb in Google Colab or Jupyter.
 
 
-Download the dataset: Link.
+    Download the dataset: Link.
 
 
-Run the cells to train the model.
+    Run the cells to train the model.
 
 
-Download the generated garbage_classification_20.h5 file.
+    Download the generated garbage_classification_20.h5 file.
 
 
-Rename it to garbage_classification_model.h5 and place it in the model/ folder.
+    Rename it to garbage_classification_model.h5 and place it in the model/ folder.
 
 
 4. Run the Application
 
 
-python app.py
+    python app.py
 
-The server will start at http://127.0.0.1:5000/.
+    The server will start at http://127.0.0.1:5000/.
 
 💻 Usage
 Open your web browser and navigate to the localhost URL.
 
-Click the upload area or drag and drop an image of waste (e.g., a crushed soda can or a plastic bottle).
+  Click the upload area or drag and drop an image of waste (e.g., a crushed soda can or a plastic bottle).
 
-Click Upload.
+  Click Upload.
 
-The system will process the image and display the predicted category (e.g., "The predicted class is: Metal").
+  The system will process the image and display the predicted category (e.g., "The predicted class is: Metal").
 
 📊 Dataset Distribution
 The model was trained on the TrashNet dataset, which contains 2,527 images:
 
-Cardboard: 403
+  Cardboard: 403
 
-Glass: 501
+  Glass: 501
 
-Metal: 410
+  Metal: 410
 
-Paper: 594
+  Paper: 594
 
-Plastic: 482
+  Plastic: 482
 
-Trash: 137
+  Trash: 137
 
 📜 License
-This project is open-source and available for educational purposes. The dataset is provided by Gary Thung under the TrashNet repository.
+  This project is open-source and available for educational purposes. The dataset is provided by Gary Thung under the TrashNet repository.
 
-Developed with ❤️ using Python and Deep Learning.
+  Developed with ❤️ using Python and Deep Learning.
