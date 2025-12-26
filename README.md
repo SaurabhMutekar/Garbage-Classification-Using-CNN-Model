@@ -1,4 +1,6 @@
 ♻️ Garbage-Classification-Using-CNN-Model
+
+
 A Deep Learning-powered web application that classifies waste into six different categories to assist in recycling and waste management efforts. This project utilizes a Convolutional Neural Network (CNN) trained on the TrashNet dataset and serves predictions via a Flask web interface.
 
 📌 Overview
